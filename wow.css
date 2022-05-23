@@ -1,0 +1,78 @@
+*
+{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+head
+{
+display: block;
+justify-content: center;
+align-items: top;
+min-height: 5vh;
+background: black;
+}
+body
+{
+display: auto;
+justify-content: center;
+background: black;
+}
+.neon
+{
+  font-size: 50px;
+  color : rgb(255, 255, 255);
+  position:absolute;
+  text-transform:uppercase;
+  width: 100%;
+  text-align: center;
+  text-shadow: 0 0 10px #00e1ff,
+    0 0 20px #00e1ff,
+    0 0 30px #00e1ff,
+    0 0 40px #00e1ff;
+}
+.neontext
+{
+  font-size: 30px;
+  color : rgb(255, 255, 255);
+  text-shadow: 0 0 10px #00e1ff,
+    0 0 20px #00e1ff,
+    0 0 30px #00e1ff,
+    0 0 40px #00e1ff,
+    0 0 50px #00e1ff;
+}
+ a
+{
+  display: inline-block;
+  padding: 15px;
+  color: #00e1ff;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-decoration: none;
+  font-size: 25px;
+  transition: 0.2s;
+}
+a:hover
+{
+  color: #255784;
+  background:#00e1ff;
+  box-shadow: 0 0 10px #00e1ff,
+  0 0 20px #00e1ff,
+  0 0 30px #00e1ff,
+  0 0 40px #00e1ff;
+}
+.Histoiretext
+{
+  color : white; 
+  font-size: 30px;
+  text-align: justify;
+}
+.tableau
+{
+  margin : 100px auto; 
+}
+table
+{
+border-spacing: 40px;
+}
+

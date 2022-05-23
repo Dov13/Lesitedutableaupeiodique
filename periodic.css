@@ -1,0 +1,110 @@
+*
+{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+head
+{
+display: block;
+justify-content: center;
+align-items: top;
+min-height: 5vh;
+background: black;
+}
+body
+{
+display: auto;
+justify-content: left;
+background: black;
+}
+.neon
+{
+  font-size: 50px;
+  color : rgb(255, 255, 255);
+  position:absolute;
+  text-transform:uppercase;
+  width: 100%;
+  text-align: center;
+  text-shadow: 0 0 10px #00e1ff,
+    0 0 20px #00e1ff,
+    0 0 30px #00e1ff,
+    0 0 40px #00e1ff;
+}
+.Zoom #zoom-In
+  {
+    display: inline-block;
+    transform: scale(1);
+    transition: 0.3s ease-in-out;
+  }
+.Zoom #zoom-In figure:hover img 
+{
+	transform: scale(1.1);
+}
+
+figure
+{
+  margin : 0;
+}
+ .boutonretour 
+ {
+   position: relative;
+   display: inline-block;
+   padding: 15px 30px;
+   color: #00e1ff;
+   text-transform: uppercase;
+   letter-spacing: 2px;
+   text-decoration: none;
+   font-size: 25px;
+   overflow: hidden;
+   transition: 0.2s;
+ }
+ .boutonretour:hover
+ {
+   color: #255784;
+   background:#00e1ff;
+   box-shadow: 0 0 10px #00e1ff,
+   0 0 20px #00e1ff,
+   0 0 30px #00e1ff,
+   0 0 40px #00e1ff;
+ }
+ a, a:hover
+ {
+   color:white;
+   text-decoration:none;
+ }
+
+ figcaption
+ {
+   color: white;
+   font-size: 20px;
+ }
+
+ .red
+ {
+   font-size: 25px;
+   color: red;
+ }
+ .blue
+ {
+   font-size: 25px;
+   color: blue;
+ }
+ .black
+ {
+   font-size: 25px;
+   color: black;
+ }
+
+ .white
+ {
+  font-size: 20px;
+  color: white;
+ }
+ .bgrey
+ {
+   background-color: grey;
+   width: 250px;
+   height: auto;
+
+ }
